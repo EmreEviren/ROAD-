@@ -1,0 +1,1 @@
+//hafizaya kalıcı olarak yazıp/okuma işlerimiz burde yapıcaz
