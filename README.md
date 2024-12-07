@@ -58,6 +58,10 @@ lib/
 
 ## Ekran Görüntüleri
  ![ekran resmi](https://github.com/EmreEviren/ROADplus/blob/main/loading.png?raw=true)
+ ![ekran resmi2](https://github.com/EmreEviren/ROADplus/blob/main/home.png?raw=true)
+ ![ekran resmi3](https://github.com/EmreEviren/ROADplus/blob/main/ticket.png?raw=true)
+ ![ekran resmi4](https://github.com/EmreEviren/ROADplus/blob/main/car.png?raw=true)
+ ![ekran resmi5](https://github.com/EmreEviren/ROADplus/blob/main/profile.png?raw=true)
 
 
 
