@@ -1,2 +1,98 @@
-# ROAD+
-Istinye University Student Projects.
+# Flutter Projesi
+
+![İstinye Üniversitesi](https://camo.githubusercontent.com/134ae6afe36e02ada64a289ccd8339c9a031c9f6e81073962b446689bc21781e/68747470733a2f2f7777772e756e69746564656475636174696f6e2e636f6d2f6c696e6b6c6f676f63682f697374696e79652d756e69766572736974792d6c6f676f2e706e67)
+
+## Proje Hakkında 
+ Bu uygulama insanların seyahat işlerini en ekonomik ve hızlı bir şekilde çözmesi için oluşturulan bir mobil uygulama.
+
+ ## Ekibimiz
+
+ **Danışman** Keyvan Arasteh
+ **Takım Üyeleri**
+ - Emre Eviren[EmreEviren](https://github.com/EmreEviren)
+ - Abdullah Samed Dönmez[donmez44](https://github.com/donmez44)
+
+## Özellikler
+-bilet satın alma
+-araç kiralama
+-
+
+   ## Kullanılan teknolojiler
+   -Flutter SDK (sürüm 10.0.26100.2454)
+   -Dart SDK (sürüm 3.7.0-132.0.dev)
+   -Visual Studio Code
+   -Android Studio
+
+   ## kurulum Adımları
+   1.Projeyi bilgisayarınıza indirin:
+   
+   https://github.com/EmreEviren/ROADplus
+
+   2.Proje klasörüne gidin:
+
+   cd[Flutter-ROADplus]
+
+   3.Gerekli paketleri yükleyin:
+
+   flutter  pub  get
+
+   4.Uygulamayı başlatın:
+
+   flutter  run
+
+   ## Proje Yapısı
+
+   
+lib/
+
+├── modeller/ # Veri modelleri
+
+├── ekranlar/ # Uygulama ekranları
+
+├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
+
+├── servisler/ # API servisleri
+
+└── yardımcılar/ # Yardımcı fonksiyonlar
+
+
+## Ekran Görüntüleri
+
+https://private-user-images.githubusercontent.com/148541466/393544878-eff639d4-909e-4aa5-a009-28cdf0944e24.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2MDI0NDksIm5iZiI6MTczMzYwMjE0OSwicGF0aCI6Ii8xNDg1NDE0NjYvMzkzNTQ0ODc4LWVmZjYzOWQ0LTkwOWUtNGFhNS1hMDA5LTI4Y2RmMDk0NGUyNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwN1QyMDA5MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNmFiNDY2ODBhNjU4ZjcyZjU4NDA0YjUwMmNkMDE3MTg1YzlhMDFkYThmOTcyZGZhY2QxNGQxMDE3MGYxMGQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._-8OvS7NtI9Blp8VGemE3Fo66QnR9BaqQZOG5NS2ukQ
+
+https://private-user-images.githubusercontent.com/148541466/393544949-1fd7ab24-79f1-4fa5-9b81-7da391e020ec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2MDI1MTcsIm5iZiI6MTczMzYwMjIxNywicGF0aCI6Ii8xNDg1NDE0NjYvMzkzNTQ0OTQ5LTFmZDdhYjI0LTc5ZjEtNGZhNS05YjgxLTdkYTM5MWUwMjBlYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwN1QyMDEwMTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOTgyNjBmNGExM2RmN2UyODI4ZmNmZjlkNGYyMDY2OTVkM2QzZDJiZGU5OTk4YzhkYjVlNDc3YmY4YjY4MWE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.NYMph-D0judp5OJUJGRtULRqnK_Lw7UxRaYA4_SFnPo
+
+
+https://private-user-images.githubusercontent.com/148541466/393544973-464da980-397f-42ef-9636-182cb62f7c0a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2MDI1NTMsIm5iZiI6MTczMzYwMjI1MywicGF0aCI6Ii8xNDg1NDE0NjYvMzkzNTQ0OTczLTQ2NGRhOTgwLTM5N2YtNDJlZi05NjM2LTE4MmNiNjJmN2MwYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwN1QyMDEwNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZmY5MGYzMTliNWM3N2E3ZDcyYjAzOGI2MWNjMGQ0ZWJlYzZkOTk2Mjc2N2Y1ZDQ2Yzc1YzliOTg3MjBmNTg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.d45cZisYN-1X6wv6bZJddsZSpgP8_i91eCn6qI9BJEc
+
+
+https://private-user-images.githubusercontent.com/148541466/393545010-6005b3ee-61ba-4123-9607-3b0105df87f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2MDI1OTYsIm5iZiI6MTczMzYwMjI5NiwicGF0aCI6Ii8xNDg1NDE0NjYvMzkzNTQ1MDEwLTYwMDViM2VlLTYxYmEtNDEyMy05NjA3LTNiMDEwNWRmODdmMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwN1QyMDExMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yM2FiNjZhOGQxM2YzYmRjYWQ4MDZhNzcyMDM1ZjZmOWI3N2M0YjkzZWM0ZGZlNzllYTE5MzUyOTcwMzIwYmVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bGgaSnUz5Pu4eObCwksXOFO5kA47woR8JdEd7r0Si84
+
+
+(https://private-user-images.githubusercontent.com/148541466/393545053-a7e24fd8-9ed3-4d58-bd1b-d7c2d021002c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM2MDI2NjAsIm5iZiI6MTczMzYwMjM2MCwicGF0aCI6Ii8xNDg1NDE0NjYvMzkzNTQ1MDUzLWE3ZTI0ZmQ4LTllZDMtNGQ1OC1iZDFiLWQ3YzJkMDIxMDAyYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwN1QyMDEyNDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOTg1NGU3YzIwNzE5ODlhNDU1YzRmZDQ1YTcwMTQyYTNhYTVmODdiOWY5NzU2OTVhOTBhMDdjYzI4ZmZmMmFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.iPXlcQ1putEj3_V1xcQXEnRQldDgv3x2m-cN6bctls4)
+
+
+## Projeye Katkı Sağlama
+1.Projeyi forklayın
+
+2.Yeni bir dal oluşturun (git checkout -b ozellik/YeniOzellik)
+
+3.Değişikliklerinizi kaydedin (git commit -m 'Yeni özellik eklendi')
+
+4.Dalınıza gönderin (git push origin ozellik/YeniOzellik)
+
+5.Pull Request oluşturun
+
+Lisans
+
+[MIT licenses] kapsamında lisanslanmıştır.Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz
+
+İletişim
+
+-Proje Bağlantısı: [https://github.com/EmreEviren/ROADplus]
+
+-İstinye Üniveritesi: https://www.istinye.edu.tr/
+
+Teşekkürler
+
+-İstinye Üniversitesi'ne destekleri için teşekkür ederiz.

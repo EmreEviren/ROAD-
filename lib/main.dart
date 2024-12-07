@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
+import 'core/routes.dart';
 
 void main() {
-  runApp(const MainApp());
+  WidgetsFlutterBinding.ensureInitialized();  // Flutter widget'larını başlat
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return MaterialApp.router(
+      title: 'Flutter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      routerConfig: router,  // go_router yapılandırmamızı kullan
+      debugShowCheckedModeBanner: false,  // Debug bandını kaldır
     );
   }
 }
