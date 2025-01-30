@@ -69,6 +69,12 @@ lib/
 ![Image](https://github.com/user-attachments/assets/408dd608-8c18-48d6-a8b8-0694328a798e)
 ![Image](https://github.com/user-attachments/assets/d5b84f9d-705a-4a9e-ad2f-e2025484722d)
 ![Image](https://github.com/user-attachments/assets/22471995-12b2-4c91-84b4-570edcfc8d95)
+
+
+
+
+
+Tanıtım Videosu
 https://github.com/user-attachments/assets/33c95c00-3260-4423-abaa-2c2ad73909c0
 
 
