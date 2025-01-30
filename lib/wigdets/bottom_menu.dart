@@ -9,7 +9,7 @@ class BottomMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(height: 100,
+    return SizedBox(height: 100,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
@@ -17,7 +17,7 @@ class BottomMenu extends StatelessWidget {
             onPressed: (){
               context.go("/home");
             },
-            icon: Icon(
+            icon: const Icon(
               CupertinoIcons.home,
               size: 30,
               color: Color.fromARGB(255, 29,53,87),
@@ -28,7 +28,7 @@ class BottomMenu extends StatelessWidget {
             onPressed: (){
               context.go("/ticket");
             },
-            icon: Icon(
+            icon: const Icon(
               CupertinoIcons.ticket,
               size: 30,
               color: Color.fromARGB(255, 29,53,87),
@@ -39,7 +39,7 @@ class BottomMenu extends StatelessWidget {
             onPressed: (){
               context.go("/car");
             },
-            icon: Icon(
+            icon: const Icon(
               CupertinoIcons.car,
               size: 30,
               color: Color.fromARGB(255, 29,53,87),
@@ -49,7 +49,7 @@ class BottomMenu extends StatelessWidget {
             onPressed: (){
               context.go("/profile");
             },
-            icon: Icon(
+            icon: const Icon(
               CupertinoIcons.person,
               size: 30,
               color: Color.fromARGB(255, 29,53,87),

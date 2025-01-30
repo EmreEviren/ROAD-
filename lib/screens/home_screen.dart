@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 
 
-import '../widgets/bottom_menu.dart';
+
 import '../wigdets/bottom_menu.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         // AppBar
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 230, 57, 71),
+          backgroundColor: const Color.fromARGB(255, 230, 57, 71),
           title: const Text(
             'ROAD+',
             style: TextStyle(
@@ -44,18 +44,18 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               // Drawer Header
-              Container(
+              SizedBox(
                 height: 200,
-                child: Column(
+                child: const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Icon(
+                    Icon(
                       CupertinoIcons.person_circle,
                       size: 80,
                       color: Color.fromARGB(255, 29, 53, 87),
                     ),
-                    const SizedBox(height: 10),
-                    const Text(
+                    SizedBox(height: 10),
+                    Text(
                       'EMRE EVİREN',
                       style: TextStyle(
                         color: Color.fromARGB(255, 29, 53, 87),
@@ -147,12 +147,12 @@ class HomeScreen extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           color: Color.fromARGB(255, 29, 53, 87)),
                     ))),
-            Expanded(
+            const Expanded(
                 child: Row(
               children: [
 
                 Padding(padding: EdgeInsets.all(20)),
-                const Icon(
+                Icon(
                   CupertinoIcons.airplane,
                   color: Color.fromARGB(255, 29, 53, 87),
                   size: 80,
@@ -179,13 +179,13 @@ class HomeScreen extends StatelessWidget {
 
               ],
             )),
-            SizedBox(
+            const SizedBox(
               width: 800,
             )
           ],
         ),
 
         // Alt navigasyon çubuğu
-        bottomNavigationBar: BottomMenu());
+        bottomNavigationBar: const BottomMenu());
   }
 }

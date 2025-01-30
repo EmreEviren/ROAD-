@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/car_screen.dart';
 import 'package:flutter_app/screens/history_screen.dart';
+import 'package:flutter_app/screens/home_screen.dart';
+import 'package:flutter_app/screens/loading_screen.dart';
 import 'package:flutter_app/screens/notifications_screen.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
 import 'package:flutter_app/screens/ticket_screen.dart';
 import 'package:go_router/go_router.dart';
-import '../screens/loading_screen.dart';
-import '../screens/home_screen.dart';
+
 
 // Router yapılandırması
 final router = GoRouter(
-  initialLocation: '/',  // Başlangıç rotası
+  initialLocation: '/', // Başlangıç rotası
   routes: [
     GoRoute(
       path: '/',
@@ -19,7 +20,7 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/home',
-      builder: (context, state) => const HomeScreen(),
+      builder: (context, state) => HomeScreen(),
     ),
     GoRoute(
       path: '/profile',
@@ -31,7 +32,7 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/car',
-      builder: (context, state) => const CarScreen(),
+      builder: (context, state) => CarScreen(),
     ),
     GoRoute(
       path: '/history',
@@ -44,6 +45,22 @@ final router = GoRouter(
     GoRoute(
       path: '/notifications',
       builder: (context, state) => const NotificationsScreen(),
+    ),
+    GoRoute(
+      path: '/login',
+      builder: (context, state) => const LoginScreen(),
+    ),
+    GoRoute(
+      path: '/register',
+      builder: (context, state) => const RegisterScreen(),
+    ),
+    GoRoute(
+      path: '/ticket_details',
+      builder: (context, state) => const TicketDetailsScreen(),
+    ),
+    GoRoute(
+      path: '/car_details',
+      builder: (context, state) => const CarDetailsScreen(),
     ),
   ],
 );

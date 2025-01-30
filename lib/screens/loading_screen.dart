@@ -1,7 +1,7 @@
-import 'package:dotlottie_loader/dotlottie_loader.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:lottie/lottie.dart';
+
 
 import 'home_screen.dart';
 
@@ -37,11 +37,11 @@ class LoadingScreen extends StatelessWidget {
              onTap: (){
                Navigator.push(
                  context,
-                 MaterialPageRoute(builder: (context) =>  HomeScreen()),
+                 MaterialPageRoute(builder: (context) =>  const HomeScreen()),
                );
              },
              child:
-             CircularProgressIndicator(
+             const CircularProgressIndicator(
                color: Color.fromARGB(255, 29,53,87)
 
            ),

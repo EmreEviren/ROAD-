@@ -16,21 +16,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
         appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 230, 57, 71),
+        backgroundColor: const Color.fromARGB(255, 230, 57, 71),
     title: const Text(
     'PROFİLİM',
     style: TextStyle(color: Colors.white),
     ),
     ),
-        body: SingleChildScrollView(
+        body: const SingleChildScrollView(
           child: Padding(
-              padding:const EdgeInsets.all(16.0),
+              padding:EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
 
 
-              const Center(
+              Center(
                 child: CircleAvatar(
 
 
@@ -40,16 +40,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
                 ),
               ),
-              const SizedBox(height: 20),
+              SizedBox(height: 20),
 
-              const Text('Kullanıcı Bilgileri',
+              Text('Kullanıcı Bilgileri',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 29, 53, 87)
               ),
               ),
-              const SizedBox(height: 10,),
+              SizedBox(height: 10,),
               Text('Ad Soyad:Emre Eviren',
               style: TextStyle(
                 fontSize: 20,
@@ -72,7 +72,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
 
 
-        bottomNavigationBar: BottomMenu()
+        bottomNavigationBar: const BottomMenu()
     );
   }
 }

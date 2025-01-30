@@ -17,7 +17,7 @@ class _TicketScreenState extends State<TicketScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 230, 57, 71),
+          backgroundColor: const Color.fromARGB(255, 230, 57, 71),
           title: const Text(
             'BİLETLER',
             style: TextStyle(color: Colors.white),
@@ -52,6 +52,6 @@ class _TicketScreenState extends State<TicketScreen> {
             )
           ],
         ),
-        bottomNavigationBar: BottomMenu());
+        bottomNavigationBar: const BottomMenu());
   }
 }
