@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/wigdets/bottom_menu.dart';
 
-import '../widgets/bottom_menu.dart';
+
 
 class TicketDetailsScreen extends StatefulWidget {
   const TicketDetailsScreen({super.key});
